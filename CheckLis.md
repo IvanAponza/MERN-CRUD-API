@@ -3,10 +3,10 @@
 [x] configurar archivo principal de la app.
 [x] Instalar las dependencias a utilizar.
 [x] Levantar el servidor de desarrollo.
-[] Crear la structura del projecto.
-[] Crear las rutas inicial y comprobar su funcionalidad.
+[x] Crear archivo configuración de variables de entorno
+[x] Crear la structura del projecto.
+[x] Crear las rutas inicial y comprobar su funcionalidad.
 [] Implementar la conexión a la Base de datos.
-[] Crear archivo configuración de variables de entorno
 [] Implementar funcionalidad para registrar usuarios.
     - [] Crear modelo
     - [] controlador
