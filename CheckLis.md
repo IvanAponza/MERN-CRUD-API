@@ -1,9 +1,9 @@
 ## Lista de chequeo para la construcción de la App.
 
-[] configurar archivo principal de la app.
-[] Levantar el servidor de desarrollo.
+[x] configurar archivo principal de la app.
+[x] Instalar las dependencias a utilizar.
+[x] Levantar el servidor de desarrollo.
 [] Crear la structura del projecto.
-[] Instalar las dependencias a utilizar.
 [] Crear las rutas inicial y comprobar su funcionalidad.
 [] Implementar la conexión a la Base de datos.
 [] Crear archivo configuración de variables de entorno

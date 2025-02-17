@@ -1,0 +1,32 @@
+{
+  "name": "mern-crud-api",
+  "version": "1.0.0",
+  "description": "Repositorio proyecto de Autenticación y creación de Tareas con el stack MEAN, herramienta a utilizar Nodejs, Express, JavaScript, Mongoose, Json Web Token, Zod, Cookie-parser, BcryptJs,",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanAponza/MERN-CRUD-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanAponza/MERN-CRUD-API/issues"
+  },
+  "homepage": "https://github.com/IvanAponza/MERN-CRUD-API#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "morgan": "^1.10.0",
+    "zod": "^3.24.2"
+  }
+}
