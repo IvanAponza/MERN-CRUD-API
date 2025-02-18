@@ -27,6 +27,9 @@ const userSchema = new mongoose.Schema({
     img: {
         type: String
     }
+}, {
+    timestamps: true,
+    versionKey: false,
 });
 
 export default mongoose.model('User', userSchema);
