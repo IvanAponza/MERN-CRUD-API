@@ -8,14 +8,15 @@ export const register = async(req, res) => {
         const userFound = await Users.findOne({email});
         if(userFound) return res.status(400).json({message: 'User already exist'});
 
-        const user = new Users({
-            username,
-            email,
-            password,
-        });
+        const user = new Users({ username, email, password });
+
         user.password = bcryptAuth.hash(password);
 
         const newUser = await user.save();
+
+        //TODO TOKEN
+
+        //TODO MANTENER SESSION USER
 
         return res.status(200).json({
             id: newUser._id,

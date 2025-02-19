@@ -1,4 +1,4 @@
-import bcrypt, { compareSync, genSaltSync, hashSync } from 'bcryptjs';
+import { compareSync, genSaltSync, hashSync } from 'bcryptjs';
 
 export const bcryptAuth = {
 
