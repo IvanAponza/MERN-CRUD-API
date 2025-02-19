@@ -1,5 +1,6 @@
 import Users from '../models/user-model.js';
 import {bcryptAuth} from '../libs/bcrypt.js';
+import { generateToken } from '../libs/jwt.js';
 
 export const register = async(req, res) => {
     const {username, email, password} = req.body;
@@ -14,9 +15,9 @@ export const register = async(req, res) => {
 
         const newUser = await user.save();
 
-        //TODO TOKEN
+        const token = await generateToken({id: newUser._id});
 
-        //TODO MANTENER SESSION USER
+        res.cookie("token", token);
 
         return res.status(200).json({
             id: newUser._id,
