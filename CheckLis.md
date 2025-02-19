@@ -6,15 +6,15 @@
 [x] Crear archivo configuración de variables de entorno
 [x] Crear la structura del projecto.
 [x] Crear las rutas inicial y comprobar su funcionalidad.
-[] Implementar la conexión a la Base de datos.
-[] Implementar funcionalidad para registrar usuarios.
-    - [] Crear modelo
-    - [] controlador
-    - [] rutas
-    - [] Validar campos ZOD
-    - [] Ecryptar la contraseña y excluirla de la respuesta comprobar su funcionalidad.
+[x] Implementar la conexión a la Base de datos.
+[x] Implementar funcionalidad para registrar usuarios.
+    - [x] Crear modelo
+    - [x] controlador
+    - [x] rutas
+    - [x] Ecryptar la contraseña y excluirla de la respuesta comprobar su funcionalidad.
     - [] Crear token para autenticar el usuario.
     - [] Implementar funcionalidad para mantener la sesion del usuario autenticado.
+    - [] Validar campos ZOD
 [] Proteccion de rutas de la app. 
 [] Implementar metodo login de usuario y comprobar su funcionalidad.
 [] Implementar metodo que permita listar todos los usuarios, probar funcionalidad
