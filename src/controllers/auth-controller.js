@@ -33,3 +33,31 @@ export const register = async(req, res) => {
         return res.status(500).json({message: 'Internal Server Error'});
     }
 }
+
+export const login = async(req, res) => {
+    const {email, password} = req.body;
+
+    try {
+        const userFound = await Users.findOne({email});
+        if(!userFound) return res.status(400).json({message: 'User not found'});
+
+        const isMatch = bcryptAuth.compare(password, userFound.password);
+        if(!isMatch) return res.status(400).json({message: 'Credential invalid'})
+
+        const token = await generateToken({id: userFound._id});
+        
+        res.cookie("token", token);
+
+        return res.status(200).json({
+            id: userFound._id,
+            email: userFound.email,
+            roles: userFound.roles,
+            img: userFound.img,
+            createdAt:userFound.createdAt,
+            updatedAt:userFound.updatedAt,
+        });
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({message: 'Internal Server Error'});
+    }
+}
