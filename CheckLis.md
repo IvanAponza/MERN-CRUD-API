@@ -16,6 +16,15 @@
     - [x] Implementar funcionalidad para mantener la sesion del usuario autenticado.<br>
     - [x] Validar campos ZOD<br>
 </div>
+[x] Implementar funcionalidad para login usuarios.
+<div>
+    - [x] ruta login<br>
+    - [x] crear metodo en el controlador usuario<br>
+    - [x] Validar usuario y contraseña comprobar su funcionalidad.<br>
+    - [x] Crear token para autenticar el usuario.<br>
+    - [x] Implementar funcionalidad para mantener la sesion del usuario autenticado.<br>
+    - [x] Validar campos ZOD<br>
+</div>
 [] Proteccion de rutas de la app.<br>
 [] Implementar metodo login de usuario y comprobar su funcionalidad.<br>
 [] Implementar metodo que permita listar todos los usuarios, probar funcionalidad<br>
