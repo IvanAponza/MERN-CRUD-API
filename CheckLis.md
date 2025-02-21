@@ -12,9 +12,9 @@
     - [x] controlador<br>
     - [x] rutas<br>
     - [x] Ecryptar la contraseña y excluirla de la respuesta comprobar su funcionalidad.<br>
-    - [] Crear token para autenticar el usuario.<br>
-    - [] Implementar funcionalidad para mantener la sesion del usuario autenticado.<br>
-    - [] Validar campos ZOD<br>
+    - [x] Crear token para autenticar el usuario.<br>
+    - [x] Implementar funcionalidad para mantener la sesion del usuario autenticado.<br>
+    - [x] Validar campos ZOD<br>
 </div>
 [] Proteccion de rutas de la app.<br>
 [] Implementar metodo login de usuario y comprobar su funcionalidad.<br>
