@@ -25,13 +25,12 @@
     - [x] Implementar funcionalidad para mantener la sesion del usuario autenticado.<br>
     - [x] Validar campos ZOD<br>
 </div>
-[x] Implementar funcionalidad para logout.
-[] Verificar token
-[] Proteccion de rutas de la app.<br>
-[] Implementar metodo login de usuario y comprobar su funcionalidad.<br>
-[] Implementar metodo que permita listar todos los usuarios, probar funcionalidad<br>
-[] Implementar metodo que permita crear perfil de usuaario y modificar los datos, probar funcionalidad<br>
-[] Implementar un metodo que permita eliminar un usuario por ID, comprobar funcionalidad.<br>
+[x] Implementar funcionalidad para logout.<br>
+[x] Verificar token<br>
+[x] Proteccion de rutas de la app.<br>
+[x] Implementar metodo que permita listar todos los usuarios, probar funcionalidad<br>
+[x] Implementar metodo que permita crear perfil de usuaario y modificar los datos, probar funcionalidad<br>
+[x] Implementar un metodo que permita eliminar un usuario por ID, comprobar funcionalidad.<br>
 [] Implementar metodo que permita reestablecer password.<br>
 [] Implementar metodo que permita enviar correo de confirmación para registrar usuario<br>
 [] Implementar CRUD de tareas<br> 
