@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { deleteUser, getUsers, login, logout, perfil, register, updateUser } from '../controllers/auth-controller.js';
+import { deleteUser, getUsers, login, logout, perfil, register, updateUser, verifyToken } from '../controllers/auth-controller.js';
 import {validateSchema} from '../middleware/validate.middleware.js';
 import {loginSchema, registerSchema} from '../schema/auth.schema.js';
 import { authRequired } from '../middleware/validateToken.js';
@@ -12,6 +12,8 @@ router.get('/users', getUsers);
 router.put('/users/:id', updateUser);
 router.delete('/users/:id', deleteUser);
 router.post('/logout', logout);
+
+router.get('/verifyToken', verifyToken);
 
 //Protected
 router.get('/perfil', authRequired, perfil);
